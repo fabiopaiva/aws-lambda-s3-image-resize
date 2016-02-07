@@ -1,0 +1,32 @@
+{
+  "name": "aws-lambda-image-resize",
+  "version": "1.0.0",
+  "description": "Image resize script for lambda AWS and S3 Bucket",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.2.33",
+    "gm": "^1.21.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiopaiva/aws-lambda-image-resize.git"
+  },
+  "keywords": [
+    "lambda",
+    "aws",
+    "s3",
+    "resize",
+    "imagemagick"
+  ],
+  "author": "Fábio Paiva <fabio@paiva.info>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabiopaiva/aws-lambda-image-resize/issues"
+  },
+  "homepage": "https://github.com/fabiopaiva/aws-lambda-image-resize#readme"
+}
